@@ -189,13 +189,10 @@ export function RiderApp() {
       case 'show':
         sheet = (
           <>
-            <Title sub={`When it ends, tap "I'm heading out" to save your place in line.`}>Enjoy the show</Title>
-            <Rows
-              rows={[
-                ['Show ends', `~${clock(state.expectedEnd)}`],
-                ['Your zone', `Zone ${zone}`],
-              ]}
-            />
+            {/* Deliberately quiet: no end time or zone here. The zone is assigned at "I'm heading out". */}
+            <Title sub={`When you're ready to leave, tap "I'm heading out" to save your place in line. We'll remind you near the end.`}>
+              Enjoy the show
+            </Title>
           </>
         );
         break;
