@@ -1,5 +1,7 @@
 # Show Mode: event pickup MVP prototype
 
+**Live demo:** https://winniehepp.github.io/show-mode/
+
 A clickable prototype of **Show Mode**, an event pickup layer for a rideshare app. It shows one concert night at **Harbor Arena** (18,000 seats) from three points of view, one per tab:
 
 - **Rider app** (Maya, leaving with five friends, so she takes UberXL), in a phone frame
